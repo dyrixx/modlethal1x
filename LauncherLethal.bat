@@ -1,6 +1,6 @@
 @echo off
 :: Menentukan judul jendela Command Prompt
-title Launcher Lethal Company
+title Launcher Lethal Companys
 
 :: Mengecek apakah skrip dijalankan sebagai administrator
 >nul 2>&1 net session
