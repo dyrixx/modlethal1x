@@ -1,6 +1,6 @@
 @echo off
 :: Menentukan judul jendela Command Prompt
-title Launcher Lethal Company
+title ModPack Updater Lethal Company
 
 setlocal enabledelayedexpansion
 
