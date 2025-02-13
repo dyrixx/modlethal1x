@@ -14,7 +14,7 @@ set TEMP_FILE=%TEMP%\version.txt
 echo Mengambil file mod Lethal Company...
 curl -s %VERSION_URL% -o %TEMP_FILE%
 if %errorlevel% neq 0 (
-    echo Gagal file mod Lethal Company!
+    echo Gagal mengambil file mod Lethal Company!
     exit /b
 )
 
