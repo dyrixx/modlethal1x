@@ -2,13 +2,6 @@
 :: Menentukan judul jendela Command Prompt
 title Launcher Lethal Company
 
-:: Mengecek apakah skrip dijalankan sebagai administrator
->nul 2>&1 net session
-if %errorlevel% neq 0 (
-    echo Launcher ini membutuhkan izin administrator. Menjalankan ulang dengan izin administrator...
-    powershell -Command "Start-Process cmd -ArgumentList '/c %~s0' -Verb runAs"
-    exit /b
-)
 setlocal enabledelayedexpansion
 
 :: URL tempat mengambil nama file ZIP
